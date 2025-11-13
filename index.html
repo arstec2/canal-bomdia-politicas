@@ -1,1 +1,88 @@
-"<h1>Ol�, TikTok! Bom dia com positividade ??</h1>" 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bom Dia com Positividade ☀️</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #FFDD55, #FFB347);
+      animation: bgShift 8s ease-in-out infinite alternate;
+      overflow: hidden;
+    }
+
+    @keyframes bgShift {
+      0% { background: linear-gradient(135deg, #FFDD55, #FFB347); }
+      100% { background: linear-gradient(135deg, #FEC163, #DE4313); }
+    }
+
+    .container {
+      text-align: center;
+      color: #fff;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+      animation: fadeIn 2s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.4em;
+      margin-bottom: 30px;
+    }
+
+    .sun {
+      width: 120px;
+      height: 120px;
+      background: radial-gradient(circle, #FFD93D 40%, #FFB100 100%);
+      border-radius: 50%;
+      margin: 0 auto 20px;
+      animation: shine 4s ease-in-out infinite alternate;
+    }
+
+    @keyframes shine {
+      from { transform: scale(1); box-shadow: 0 0 20px #FFD93D; }
+      to { transform: scale(1.1); box-shadow: 0 0 50px #FFD93D; }
+    }
+
+    footer {
+      position: absolute;
+      bottom: 10px;
+      width: 100%;
+      text-align: center;
+      color: #fff;
+      font-size: 1em;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="sun"></div>
+    <h1>Bom Dia! ☀️</h1>
+    <p>Que o seu dia seja cheio de luz, paz e boas energias ✨</p>
+  </div>
+  <footer>
+    Canal: <strong>Bom Dia com Positividade</strong> 🌼 | TikTok
+  </footer>
+</body>
+</html>
+
